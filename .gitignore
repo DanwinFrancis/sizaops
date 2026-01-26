@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# EmailJS config (contains sensitive keys)
+# Uncomment the line below if you want to ignore config.js
+# config.js
