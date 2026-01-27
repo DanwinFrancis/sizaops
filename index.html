@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Automation - Get Paid Sooner</title>
+    <title>SizaOps AR – Get Paid Sooner</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,62 +14,50 @@
         
         <main>
             <div class="hero">
-                <h2 class="headline">Get Paid Sooner, Without Changing How You Invoice</h2>
-                <p class="subheadline">Join our beta program and be among the first to experience automated accounts receivable management.</p>
+                <h2 class="headline">Get paid sooner without changing how you invoice.</h2>
+                <p class="tagline">Keep your current tools. We add automated follow-up—WhatsApp & email—so your team stops chasing and starts closing.</p>
             </div>
 
-            <div class="content">
-                <div class="description">
-                    <p>Our AR automation is unique because it's built specifically to get you paid sooner without forcing you to change how you invoice: you keep your current invoicing or accounting tools, and we add a structured follow-up system that runs on autopilot.</p>
-                    
-                    <p>It combines WhatsApp and email reminders with rules-based escalation (due date → overdue → final notice), keeps a clear audit trail of every follow-up and response, and helps your accounting/admin staff stop spending hours "just following up" so they can focus on higher-value work.</p>
-                    
-                    <p class="pricing">Pricing is simple and transparent: <strong>Basic is R499/month</strong>, and <strong>Enterprise is R999/month</strong> with additional add-ons.</p>
-                </div>
-
-                <div class="signup-section">
-                    <h3>Be an Early Adopter</h3>
-                    <p class="signup-description">Sign up now to get early access to our beta program and help shape the future of AR automation.</p>
-                    
-                    <form id="signupForm" class="signup-form">
-                        <div class="form-group">
-                            <input 
-                                type="text" 
-                                id="fullName" 
-                                name="fullName" 
-                                placeholder="Enter your full name" 
-                                required
-                                autocomplete="name"
-                            >
-                            <input 
-                                type="email" 
-                                id="email" 
-                                name="email" 
-                                placeholder="Enter your email address" 
-                                required
-                                autocomplete="email"
-                            >
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="submit-btn" id="submitBtn">
-                                <span class="btn-text">Join Beta Program</span>
-                                <span class="btn-loader" style="display: none;">⏳</span>
-                            </button>
-                        </div>
-                        <div id="message" class="message" style="display: none;"></div>
-                    </form>
-                </div>
+            <div class="signup-section">
+                <p class="signup-intro">Join the beta. Early access, no commitment.</p>
+                
+                <form id="signupForm" class="signup-form">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            name="fullName" 
+                            placeholder="Full name" 
+                            required
+                            autocomplete="name"
+                        >
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Email address" 
+                            required
+                            autocomplete="email"
+                        >
+                    </div>
+                    <div class="form-group form-group-btn">
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-text">Join beta</span>
+                            <span class="btn-loader" style="display: none;">⏳</span>
+                        </button>
+                    </div>
+                    <div id="message" class="message" style="display: none;"></div>
+                </form>
             </div>
         </main>
 
         <footer>
-            <p>&copy; 2026 SizaOps AR Automation. All rights reserved.</p>
+            <p>&copy; 2026 SizaOps AR Automation</p>
         </footer>
     </div>
 
     <!-- EmailJS SDK -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <!-- EmailJS Configuration - Update this file with your credentials -->
     <script src="config.js"></script>
     <script src="script.js"></script>
 </body>
