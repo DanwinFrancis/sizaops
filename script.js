@@ -169,6 +169,15 @@ Date: ${new Date().toLocaleString()}`,
                 'success'
             );
             form.reset();
+
+            // Google Ads conversion - fire only on successful signup
+            if (typeof gtag === 'function') {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-17904763336/9MEGCMW4su0bEMiD1NlC',
+                    'value': 1.0,
+                    'currency': 'ZAR'
+                });
+            }
         } catch (error) {
             console.error('EmailJS Error:', error);
             
